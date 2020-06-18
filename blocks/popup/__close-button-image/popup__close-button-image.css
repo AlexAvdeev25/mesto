@@ -1,0 +1,5 @@
+@media (max-width: 500px) {
+  .popup__close-button-image {
+   width: 100%;
+ }
+}

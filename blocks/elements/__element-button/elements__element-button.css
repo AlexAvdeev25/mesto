@@ -1,0 +1,12 @@
+.elements__element-button {
+  height: 19px;
+  border: none;
+  padding: 0;
+  display: flex;
+  background-color: #fff;
+  margin-right: 7px;
+}
+
+.elements__element-button:hover {
+  cursor: pointer;
+}

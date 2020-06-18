@@ -1,0 +1,19 @@
+@import url(../elements/__element/elements__element.css);
+@import url(../elements/__element-button/elements__element-button.css);
+@import url(../elements/__element-info/elements__element-info.css);
+@import url(../elements/__element-title/elements__element-title.css);
+
+.elements {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  grid-column-gap: 18px;
+  grid-row-gap: 21px;
+}
+
+@media (max-width: 582px) {
+  .elements {
+    max-width: 282px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,9 @@
+.profile__info-inner {
+  margin-right: 17px;
+}
+
+@media (max-width: 582px) {
+  .profile__info-inner {
+    margin-right: 0;
+  }
+}

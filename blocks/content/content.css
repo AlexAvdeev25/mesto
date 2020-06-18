@@ -1,0 +1,29 @@
+.content {
+  max-width: 882px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+  .content {
+    margin-left: 199px;
+    margin-right: 199px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .content {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 882px) {
+  .content {
+    max-width: 582px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content {
+    margin: 0 19px;
+  }
+}
