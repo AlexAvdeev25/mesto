@@ -1,12 +1,14 @@
 .elements__element-button {
+  width: 21px;
   height: 19px;
+  background-image: url(../../../images/element-like.svg);
   border: none;
-  padding: 0;
-  display: flex;
+  padding: 0;    
   background-color: #fff;
   margin-right: 7px;
 }
 
 .elements__element-button:hover {
   cursor: pointer;
+  opacity: .6;
 }

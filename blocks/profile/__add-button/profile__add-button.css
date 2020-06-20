@@ -5,7 +5,7 @@
   height: 50px;
   background-color: #000;
   border: 2px solid #fff;
-  background-image: url(../../../images/add-button.png);
+  background-image: url(../../../images/add-button.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -13,6 +13,12 @@
 .profile__add-button:hover {
   cursor: pointer;
   opacity: .6;
+}
+
+@media (max-width: 882px) {
+  .profile__add-button {    
+    width: 140px;    
+  }
 }
 
 @media (max-width: 582px) {
